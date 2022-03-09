@@ -1,0 +1,64 @@
+h1{
+   color: #424952;
+}
+.btns{
+    border: none;
+    outline: none;
+    padding: 10px 15px;
+    font-size: 16px;
+    border-radius: 20px;
+    color: white;
+}
+.first{
+    background-color: #69c3ff;
+    box-shadow: 2px 2px 5px hsl(204, 81%, 45%);
+}
+.header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 250px;
+    width: 100%;
+    background-color: #ede1fa;
+}
+input{
+    padding: 10px;
+    border: none;
+    outline: none;
+    border-radius: 20px; 
+    margin-bottom: 10px;
+    width: 300px;
+    box-shadow: 2px 2px 5px hsl(200, 4%, 67%);
+}
+.data-slab{
+    background-color: whitesmoke;
+    padding: 10px 15px;
+    width: 300px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 2px 2px 5px hsl(200, 4%, 67%);
+    margin-top: 15px;
+}
+.show-items{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+}
+.second{
+    background-color: #fa7d74;
+    box-shadow: 2px 2px 5px #fa7d74;
+}
+.icons{
+    font-size: 20px;
+    color: 6699CC;
+}
+.second:hover::before{
+    content: "Remove All";
+}
+.second:hover span{
+    display: none;
+}
